@@ -39,9 +39,14 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://www.gutenberg.org/ebooks/4793</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/12977</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/12658</dc:source>
+		<dc:source>https://archive.org/details/blackbeetlesinam00bier</dc:source>
+		<dc:source>https://archive.org/details/shapesofclay00bier</dc:source>
+		<dc:source>https://archive.org/details/collectedworksof04bierrich</dc:source>
+		<dc:source>https://archive.org/details/collectedworksof05bierrich</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>

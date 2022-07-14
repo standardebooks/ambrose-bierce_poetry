@@ -278,7 +278,8 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-section[epub|type~="z3998:scene"] > p{
+section[epub|type~="z3998:scene"] > p,
+article[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
 	width: 75%;
 }

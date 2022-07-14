@@ -47,6 +47,7 @@
 		<dc:source>https://archive.org/details/shapesofclay00bier</dc:source>
 		<dc:source>https://archive.org/details/collectedworksof04bierrich</dc:source>
 		<dc:source>https://archive.org/details/collectedworksof05bierrich</dc:source>
+		<dc:source>https://archive.org/details/literarycalifor05mighgoog</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>

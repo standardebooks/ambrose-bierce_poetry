@@ -110,30 +110,33 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 /* Start Poetry */
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:song"] p + p [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
-p.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
+p.i1,
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
@@ -164,8 +167,59 @@ p span.i6{
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] span.right{
-	text-align: right;
+p span.i7{
+	padding-left: 8em;
+	text-indent: -1em;
+}
+
+p span.i8{
+	padding-left: 9em;
+	text-indent: -1em;
+}
+
+p span.i9{
+	padding-left: 10em;
+	text-indent: -1em;
+}
+
+p span.i10{
+	padding-left: 11em;
+	text-indent: -1em;
+}
+
+p span.i11{
+	padding-left: 12em;
+	text-indent: -1em;
+}
+
+p span.i12{
+	padding-left: 13em;
+	text-indent: -1em;
+}
+
+p span.i13{
+	padding-left: 14em;
+	text-indent: -1em;
+}
+
+p span.i14{
+	padding-left: 15em;
+	text-indent: -1em;
+}
+
+p span.i15{
+	padding-left: 16em;
+	text-indent: -1em;
+}
+
+p span.i16{
+	padding-left: 17em;
+	text-indent: -1em;
+}
+
+p span.i17{
+	padding-left: 18em;
+	text-indent: -1em;
 }
 /* End Poetry */
 
@@ -331,3 +385,29 @@ tr.together td + td{
 }
 /* End Plays and Drama */
 
+/* Custom CSS */
+/* Right-Aligned elements within metered structures */
+p.right,
+p span.right{
+	display: inline-block;
+	text-align: right;
+	width: 22em;
+}
+/* End Poetry */
+
+article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::before{
+	content: "[";
+}
+
+article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::after{
+	content: "]";
+}
+
+article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-direction"]::before{
+	content: "(";
+}
+
+article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-direction"]::after{
+	content: ")";
+}
+/* End - The Scurril Press */

@@ -411,3 +411,11 @@ article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-directio
 	content: ")";
 }
 /* End - The Scurril Press */
+
+article#musings-philosophical-and-theological footer i[epub|type~="z3998:stage-direction"]::before{
+	content: "[";
+}
+
+article#musings-philosophical-and-theological footer i[epub|type~="z3998:stage-direction"]::after{
+	content: "]";
+}

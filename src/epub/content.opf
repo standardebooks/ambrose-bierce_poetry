@@ -88,16 +88,26 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/black-beetles-in-amber.xhtml" id="black-beetles-in-amber.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/epigrams.xhtml" id="epigrams.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/poetry.xhtml" id="poetry.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/laughorisms.xhtml" id="laughorisms.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/musings-philosophical-and-theological.xhtml" id="musings-philosophical-and-theological.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/on-stone.xhtml" id="on-stone.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/poesy.xhtml" id="poesy.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-1.xhtml" id="preface-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-2.xhtml" id="preface-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-3.xhtml" id="preface-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-4.xhtml" id="preface-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/shapes-of-clay.xhtml" id="shapes-of-clay.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-mummery.xhtml" id="the-mummery.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-scrap-heap.xhtml" id="the-scrap-heap.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/uncollected-verse.xhtml" id="uncollected-verse.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
@@ -110,7 +120,17 @@
 		<itemref idref="preface-3.xhtml"/>
 		<itemref idref="preface-4.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
-		<itemref idref="poetry.xhtml"/>
+		<itemref idref="shapes-of-clay.xhtml"/>
+		<itemref idref="the-scrap-heap.xhtml"/>
+		<itemref idref="black-beetles-in-amber.xhtml"/>
+		<itemref idref="poesy.xhtml"/>
+		<itemref idref="uncollected-verse.xhtml"/>
+		<itemref idref="the-mummery.xhtml"/>
+		<itemref idref="on-stone.xhtml"/>
+		<itemref idref="musings-philosophical-and-theological.xhtml"/>
+		<itemref idref="laughorisms.xhtml"/>
+		<itemref idref="epigrams.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>

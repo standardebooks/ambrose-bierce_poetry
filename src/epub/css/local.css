@@ -118,7 +118,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 [epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:song"] p + p [epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
@@ -219,6 +220,11 @@ p span.i16{
 
 p span.i17{
 	padding-left: 18em;
+	text-indent: -1em;
+}
+
+p span.i18{
+	padding-left: 19em;
 	text-indent: -1em;
 }
 /* End Poetry */
@@ -395,6 +401,7 @@ p span.right{
 }
 /* End Poetry */
 
+/* Start - The Scurril Press */
 article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::before{
 	content: "[";
 }
@@ -412,10 +419,12 @@ article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-directio
 }
 /* End - The Scurril Press */
 
-article#musings-philosophical-and-theological footer i[epub|type~="z3998:stage-direction"]::before{
+/* Start - Musings, Philosophical and Thological */
+article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::before{
 	content: "[";
 }
 
-article#musings-philosophical-and-theological footer i[epub|type~="z3998:stage-direction"]::after{
+article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::after{
 	content: "]";
 }
+/* End - Musings, Philosophical and Thological */

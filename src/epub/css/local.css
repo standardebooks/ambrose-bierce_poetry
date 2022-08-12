@@ -401,13 +401,24 @@ p span.right{
 }
 /* End Poetry */
 
-/* Start - The Scurril Press */
-article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::before{
-	content: "[";
+/* Poems with some 'drama-like' formatting */
+article#the-scurril-press [epub|type~="z3998:persona"],
+article#brothers [epub|type~="z3998:persona"]{
+	font-variant: small-caps;
 }
 
-article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::after{
+article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::before,
+article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::before,
+article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::before{
+	content: "[";
+	font-style: normal;
+}
+
+article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::after,
+article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::after,
+article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::after{
 	content: "]";
+	font-style: normal;
 }
 
 article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-direction"]::before{
@@ -417,26 +428,6 @@ article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-directio
 article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-direction"]::after{
 	content: ")";
 }
-/* End - The Scurril Press */
-
-/* Start - Musings, Philosophical and Thological */
-article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::before{
-	content: "[";
-}
-
-article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::after{
-	content: "]";
-}
-/* End - Musings, Philosophical and Thological */
-
-/* Start - Brothers */
-article#brothers [epub|type~="z3998:persona"]{
-	font-variant: small-caps;
-}
-
-article#brothers > p:nth-of-type(1) > span:nth-of-type(1) > span{
-	font-style: italic;
-}
 
 article#brothers > p:nth-of-type(1) span[epub|type~="z3998:stage-direction"]::before,
 article#brothers > p:nth-of-type(1) span[epub|type~="z3998:stage-direction"]::after{
@@ -444,13 +435,7 @@ article#brothers > p:nth-of-type(1) span[epub|type~="z3998:stage-direction"]::af
 	font-style: normal;
 }
 
-article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::before{
-	content: "[";
-	font-style: normal;
+article#brothers > p:nth-of-type(1) > span:nth-of-type(1) > span{
+	font-style: italic;
 }
-
-article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::after{
-	content: "]";
-	font-style: normal;
-}
-/* End - Brothers */
+/* End - Poems with some 'drama-like formatting */

@@ -428,3 +428,29 @@ article#musings-philosophical-and-theological i[epub|type~="z3998:stage-directio
 	content: "]";
 }
 /* End - Musings, Philosophical and Thological */
+
+/* Start - Brothers */
+article#the-brothers [epub|type~="z3998:persona"]{
+	font-variant: small-caps;
+}
+
+article#the-brothers > p:nth-of-type(1) > span:nth-of-type(1) > span{
+	font-style: italic;
+}
+
+article#the-brothers > p:nth-of-type(1) span[epub|type~="z3998:stage-direction"]::before,
+article#the-brothers > p:nth-of-type(1) span[epub|type~="z3998:stage-direction"]::after{
+	content: "";
+	font-style: normal;
+}
+
+article#the-brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::before{
+	content: "[";
+	font-style: normal;
+}
+
+article#the-brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::after{
+	content: "]";
+	font-style: normal;
+}
+/* End - Brothers */

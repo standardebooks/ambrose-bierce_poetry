@@ -429,13 +429,13 @@ article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-directio
 	content: ")";
 }
 
-article#brothers > p:nth-of-type(1) span[epub|type~="z3998:stage-direction"]::before,
-article#brothers > p:nth-of-type(1) span[epub|type~="z3998:stage-direction"]::after{
+article#brothers > [epub|type~="z3998:stage-direction"]::before,
+article#brothers > [epub|type~="z3998:stage-direction"]::after{
 	content: "";
 	font-style: normal;
 }
 
-article#brothers > p:nth-of-type(1) > span:nth-of-type(1) > span{
-	font-style: italic;
+article#brothers > p:nth-of-type(1) b{
+	font-style: normal;
 }
 /* End - Poems with some 'drama-like formatting */

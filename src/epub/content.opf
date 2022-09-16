@@ -28,12 +28,9 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Poetry</dc:title>
 		<meta property="file-as" refines="#title">Poetry</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">American poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
+		<meta property="term" refines="#subject-1">sh85004382</meta>
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
@@ -42,14 +39,14 @@
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4793</dc:source>
-		<dc:source>https://www.gutenberg.org/ebooks/12977</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/12658</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/12977</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/15599</dc:source>
-		<dc:source>https://archive.org/details/blackbeetlesinam00bier</dc:source>
-		<dc:source>https://archive.org/details/shapesofclay00bier</dc:source>
 		<dc:source>https://archive.org/details/collectedworksof04bierrich</dc:source>
 		<dc:source>https://archive.org/details/collectedworksof05bierrich</dc:source>
 		<dc:source>https://archive.org/details/collectedworksof08bierrich</dc:source>
+		<dc:source>https://archive.org/details/shapesofclay00bier</dc:source>
+		<dc:source>https://archive.org/details/blackbeetlesinam00bier</dc:source>
 		<dc:source>https://archive.org/details/literarycalifor05mighgoog</dc:source>
 		<dc:source>https://archive.org/details/cali07webb</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
@@ -63,18 +60,42 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79100683</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">John Linnell</dc:contributor>
 		<meta property="file-as" refines="#artist">Linnell, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Linnell_(painter)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50050808</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Rick Niles</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Niles, Rick</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Kat Jeter</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Jeter, Kat</meta>
+		<meta property="se:role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">John Hagerson</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Hagerson, John</meta>
+		<meta property="se:role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-4">http://id.loc.gov/authorities/names/no2044047869</meta>
+		<meta property="se:role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Charles Aldarondo</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Aldarondo, Charles</meta>
+		<meta property="se:role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Leah Moser</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Moser, Leah</meta>
+		<meta property="se:role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-7">Paul Hollander</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Hollander, Paul</meta>
+		<meta property="se:role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-8">Govert Schipper</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Schipper, Govert</meta>
+		<meta property="se:role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-9">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#transcriber-9">Anonymous</meta>
+		<meta property="se:role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Anonymous</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -124,13 +145,13 @@
 		<itemref idref="shapes-of-clay.xhtml"/>
 		<itemref idref="the-scrap-heap.xhtml"/>
 		<itemref idref="black-beetles-in-amber.xhtml"/>
+		<itemref idref="on-stone.xhtml"/>
 		<itemref idref="poesy.xhtml"/>
 		<itemref idref="uncollected-verse.xhtml"/>
-		<itemref idref="the-mummery.xhtml"/>
-		<itemref idref="on-stone.xhtml"/>
 		<itemref idref="musings-philosophical-and-theological.xhtml"/>
 		<itemref idref="laughorisms.xhtml"/>
 		<itemref idref="epigrams.xhtml"/>
+		<itemref idref="the-mummery.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>

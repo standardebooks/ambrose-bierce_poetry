@@ -123,8 +123,6 @@
 		<item href="text/poesy.xhtml" id="poesy.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-1.xhtml" id="preface-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-2.xhtml" id="preface-2.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/preface-3.xhtml" id="preface-3.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/preface-4.xhtml" id="preface-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/shapes-of-clay.xhtml" id="shapes-of-clay.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-mummery.xhtml" id="the-mummery.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-scrap-heap.xhtml" id="the-scrap-heap.xhtml" media-type="application/xhtml+xml"/>
@@ -139,8 +137,6 @@
 		<itemref idref="dedication.xhtml"/>
 		<itemref idref="preface-1.xhtml"/>
 		<itemref idref="preface-2.xhtml"/>
-		<itemref idref="preface-3.xhtml"/>
-		<itemref idref="preface-4.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="shapes-of-clay.xhtml"/>
 		<itemref idref="the-scrap-heap.xhtml"/>

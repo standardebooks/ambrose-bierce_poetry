@@ -1,6 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* CSS copied from style manual */
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -8,7 +10,6 @@
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -33,11 +34,6 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
 	article > header [epub|type~="epigraph"],
 	section > header [epub|type~="epigraph"]{
@@ -45,40 +41,6 @@ section > header [epub|type~="epigraph"] + *{
 	}
 }
 /* End epigraphs in section headers */
-
-/* Full-page epigraphs */
-section[epub|type~="epigraph"]{
-	text-align: center;
-}
-
-section[epub|type~="epigraph"] > *{
-	display: inline-block;
-	margin: auto;
-	margin-top: 3em;
-	max-width: 80%;
-	text-align: initial;
-}
-
-@supports(display: flex){
-	section[epub|type~="epigraph"]{
-		align-items: center;
-		box-sizing: border-box;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		min-height: calc(98vh - 3em);
-		padding-top: 3em;
-	}
-
-	section[epub|type~="epigraph"] > *{
-		margin: 0;
-	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
-}
-/* End full-page epigraphs */
 
 /* Start Poetry */
 [epub|type~="z3998:poem"] p,
@@ -108,7 +70,6 @@ section[epub|type~="epigraph"] > *{
 	display: none;
 }
 
-p.i1,
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
@@ -189,11 +150,6 @@ p span.i16{
 	text-indent: -1em;
 }
 
-p span.i17{
-	padding-left: 18em;
-	text-indent: -1em;
-}
-
 p span.i18{
 	padding-left: 19em;
 	text-indent: -1em;
@@ -221,27 +177,6 @@ footer{
 }
 /* End Signature */
 
-/* Start Bridgehead */
-[epub|type~="bridgehead"]{
-	display: inline-block;
-	font-style: italic;
-	max-width: 60%;
-	text-align: justify;
-	text-indent: 0;
-}
-
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"],
-[epub|type~="z3998:song"] [epub|type~="bridgehead"],
-[epub|type~="z3998:hymn"] [epub|type~="bridgehead"]{
-	text-align: justify;
-}
-/* End Bridgeheads */
-
 /* Collections */
 article,
 section{
@@ -250,8 +185,7 @@ section{
 /* End Collections */
 
 /* Plays and Drama */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -290,7 +224,6 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
 i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
@@ -307,12 +240,6 @@ i [epub|type~="z3998:persona"]{
 
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
-}
-
-section[epub|type~="z3998:scene"] > p,
-article[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
 }
 
 [epub|type~="z3998:dramatis-personae"]{
@@ -352,25 +279,12 @@ tr.together td + td{
 	border-left: 1px solid;
 }
 
-.together + .together td[rowspan],
-.together + .together td[rowspan] + td{
-	padding-top: .5em;
-}
-
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
 }
 /* End Plays and Drama */
 
 /* Custom CSS */
-/* Right-Aligned elements within metered structures */
-p.right,
-p span.right{
-	display: inline-block;
-	text-align: right;
-	width: 22em;
-}
-/* End Poetry */
 
 /* Poems with some 'drama-like' formatting, but not 'plays' */
 article#the-scurril-press [epub|type~="z3998:persona"],
@@ -409,8 +323,8 @@ article#brothers > p:nth-of-type(1) b{
 }
 /* End - Poems with some 'drama-like formatting */
 
-/* Custom Drama */
-/* wrap long stage directions so it fits better with verse */
+/* Drama */
+/* wrap very long stage directions so it fits in better with the verse */
 [epub|type~="z3998:drama"] td p{
 	width: 26em;
 }

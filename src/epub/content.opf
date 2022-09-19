@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/ambrose-bierce/poetry</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>1900⁠–⁠01⁠–⁠01T00:00:00Z</dc:date>
+		<meta property="dcterms:modified">1900⁠–⁠01⁠–⁠01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -33,9 +33,11 @@
 		<meta property="term" refines="#subject-1">sh85004382</meta>
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:is-a-collection">true</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of Ambrose Bierce’s poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;While better known for his short stories and his satirical &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/ambrose-bierce/the-devils-dictionary"&gt;The Devil’s Dictionary&lt;/a&gt;&lt;/i&gt;, American journalist &lt;a href="https://standardebooks.org/ebooks/ambrose-bierce"&gt;Ambrose Bierce&lt;/a&gt; was also a prolific writer of serious, comic, sentimental, and satirical poetry, verse, and epigrams.&lt;/p&gt;
+			&lt;p&gt;Bierce’s poetry contains similar themes as much of his other work. His bitter cynicism on human nature is exemplified in “Montefiore,” “Incurable,” and “The Man Born Blind.” Echoes of the American Civil War, in which Bierce fought for the Union, appear in works such as “At a “National Encampment,” “The Death of Grant,” and “The Hesitating Veteran.” Religion is not spared, and he addresses it in “The Lord’s Prayer on a Coin,” “Religion,” and “Theosophistry.” He even wrote several short satirical dramas in verse, addressing, among other topics, Prohibition (“Metempsychosis”), the railroads (“The Birth of the Rail”), and Chinese expulsion in California (“ ‘Peaceful Expulsion’ ”). His poems such as “A Vision of Doom,” “Avalon,” “The Passing Show,” and “Invocation” (one of his most well-known poems) capture his metaphysical outlook and pessimism. He even pens a fine elegy to his cat in “In Memoriam.”&lt;/p&gt;
+			&lt;p&gt;This comprehensive collection contains much of Bierce’s poetical work from multiple sources: his early poems and epigrams published in &lt;i&gt;The Fiend’s Delight&lt;/i&gt; under his pseudonym “Dod Grile”; his poetry collections &lt;i&gt;Shapes of Clay&lt;/i&gt; and &lt;i&gt;Black Beetles in Amber&lt;/i&gt;, as edited and revised by him in his &lt;i&gt;Collected Works&lt;/i&gt;; his various “ante-mortem” epitaphs on individuals who had not yet died (“On Stone”); his collection of hundreds of epigrams, also published in his &lt;i&gt;Collected Works&lt;/i&gt;; and several uncollected poems, published in various newspapers.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4793</dc:source>
@@ -49,7 +51,7 @@
 		<dc:source>https://archive.org/details/blackbeetlesinam00bier</dc:source>
 		<dc:source>https://archive.org/details/literarycalifor05mighgoog</dc:source>
 		<dc:source>https://archive.org/details/cali07webb</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">No-Break Hyphens (8.7.7.8.3) and a two-em dash (8.7.7.8.4.1) are used per manual, for obscured letters. Typogrify breaks these. Multiple poems were directly transcribed from scans (see commit history). Also, the uncollected poems “Rosalie,” “To Thee, My Darling,” and “Serenade” are sourced from scans (originally microfilm) of the newspapers that they appeared in, but are not available directly online from a major archive. “Basilica” and “A Mystery” appear in The Californian, available at the Internet Archive, and “Science” in Literary California, Poetry, Prose and Portraits.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ambrose-bierce_poetry</meta>

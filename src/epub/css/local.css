@@ -2,7 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* CSS copied from style manual */
-
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -285,7 +284,6 @@ tr.together td + td{
 /* End Plays and Drama */
 
 /* Custom CSS */
-
 /* Poems with some 'drama-like' formatting, but not 'plays' */
 article#the-scurril-press [epub|type~="z3998:persona"],
 article#brothers [epub|type~="z3998:persona"],

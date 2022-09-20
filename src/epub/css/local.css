@@ -326,3 +326,7 @@ article#brothers > p:nth-of-type(1) b{
 [epub|type~="z3998:drama"] td p{
 	width: 26em;
 }
+
+[epub|type~="z3998:dramatis-personae"] header p{
+	font-weight: bold;
+}

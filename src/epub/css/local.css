@@ -283,6 +283,13 @@ tr.together td + td{
 }
 /* End Plays and Drama */
 
+/* Letters */
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
 /* Custom CSS */
 /* Poems with some 'drama-like' formatting, but not 'plays' */
 article#the-scurril-press [epub|type~="z3998:persona"],
@@ -329,4 +336,8 @@ article#brothers > p:nth-of-type(1) b{
 
 [epub|type~="z3998:dramatis-personae"] header p{
 	font-weight: bold;
+}
+
+article#visions-of-sin [epub|type~="z3998:signature"]{
+	text-align: right;
 }

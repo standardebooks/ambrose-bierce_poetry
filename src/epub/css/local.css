@@ -284,7 +284,6 @@ tr.together td + td{
 /* End Plays and Drama */
 
 /* Letters */
-
 [epub|type~="z3998:sender"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;

@@ -293,8 +293,7 @@ tr.together td + td{
 /* Poems with some 'drama-like' formatting, but not 'plays' */
 article#the-scurril-press [epub|type~="z3998:persona"],
 article#brothers [epub|type~="z3998:persona"],
-article#thanksgiving [epub|type~="z3998:persona"],
-article#discretion [epub|type~="z3998:persona"]{
+article#thanksgiving [epub|type~="z3998:persona"]{
 	font-variant: small-caps;
 }
 

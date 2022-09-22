@@ -9,10 +9,6 @@
 			<code>t-042</code>
 			<reason>1 instance in poem 'Reciprocity'. Dialogue is continued into next stanza of poem.</reason>
 		</ignore>
-		<ignore>
-			<code>t-053</code>
-			<reason>1 instance in poem 'Yorick', which is an interjection in a containing clause: "kicks the skull".</reason>
-		</ignore>
 	</file>
 	<file path="preface-1.xhtml">
 		<ignore>

@@ -241,6 +241,11 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
+section[epub|type~="z3998:scene"] > p{
+	margin: 1em auto;
+	width: 75%;
+}
+
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
 }
@@ -292,23 +297,20 @@ tr.together td + td{
 /* Custom CSS */
 /* Poems with some 'drama-like' formatting, but not 'plays' */
 article#the-scurril-press [epub|type~="z3998:persona"],
-article#brothers [epub|type~="z3998:persona"],
-article#thanksgiving [epub|type~="z3998:persona"]{
+article#brothers [epub|type~="z3998:persona"]{
 	font-variant: small-caps;
 }
 
 article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::before,
 article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::before,
-article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::before,
-article#thanksgiving [epub|type~="z3998:stage-direction"]::before{
+article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::before{
 	content: "[";
 	font-style: normal;
 }
 
 article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::after,
 article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::after,
-article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::after,
-article#thanksgiving [epub|type~="z3998:stage-direction"]::after{
+article#brothers > p:nth-of-type(2) [epub|type~="z3998:stage-direction"]::after{
 	content: "]";
 	font-style: normal;
 }

@@ -296,29 +296,16 @@ tr.together td + td{
 
 /* Custom CSS */
 /* Poems with some 'drama-like' formatting, but not 'plays' */
-article#the-scurril-press [epub|type~="z3998:persona"]{
-	font-variant: small-caps;
-}
-
-article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::before,
 article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::before{
 	content: "[";
 	font-style: normal;
 }
 
-article#the-scurril-press p i[epub|type~="z3998:stage-direction"]::after,
 article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::after{
 	content: "]";
 	font-style: normal;
 }
 
-article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-direction"]::before{
-	content: "(";
-}
-
-article#the-scurril-press p span:nth-child(1) i[epub|type~="z3998:stage-direction"]::after{
-	content: ")";
-}
 /* End - Poems with some 'drama-like formatting */
 
 /* Drama */

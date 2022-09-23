@@ -295,19 +295,6 @@ tr.together td + td{
 }
 
 /* Custom CSS */
-/* Poems with some 'drama-like' formatting, but not 'plays' */
-article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::before{
-	content: "[";
-	font-style: normal;
-}
-
-article#musings-philosophical-and-theological i[epub|type~="z3998:stage-direction"]::after{
-	content: "]";
-	font-style: normal;
-}
-
-/* End - Poems with some 'drama-like formatting */
-
 /* Drama */
 /* wrap very long stage directions so it fits in better with the verse */
 [epub|type~="z3998:drama"] td p{

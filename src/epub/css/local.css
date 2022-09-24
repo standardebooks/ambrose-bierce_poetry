@@ -253,7 +253,6 @@ tr.together td{
 	vertical-align: middle;
 }
 
-tr.together td:only-child,
 tr.together td + td{
 	border-left: 1px solid;
 }
@@ -270,11 +269,6 @@ tr.together td + td{
 }
 
 /* Custom CSS */
-/* Drama */
-/* wrap very long stage directions so it fits in better with the verse */
-[epub|type~="z3998:drama"] td p{
-	width: 26em;
-}
 
 [epub|type~="z3998:dramatis-personae"] header p{
 	font-weight: bold;

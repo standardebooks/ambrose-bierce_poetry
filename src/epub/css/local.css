@@ -269,7 +269,6 @@ tr.together td + td{
 }
 
 /* Custom CSS */
-
 [epub|type~="z3998:dramatis-personae"] header p{
 	font-weight: bold;
 }

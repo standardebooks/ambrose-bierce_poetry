@@ -126,6 +126,7 @@
 		<item href="text/preface-1.xhtml" id="preface-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-2.xhtml" id="preface-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/shapes-of-clay.xhtml" id="shapes-of-clay.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-fiends-delight.xhtml" id="the-fiends-delight.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-mummery.xhtml" id="the-mummery.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-scrap-heap.xhtml" id="the-scrap-heap.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -144,9 +145,10 @@
 		<itemref idref="the-scrap-heap.xhtml"/>
 		<itemref idref="black-beetles-in-amber.xhtml"/>
 		<itemref idref="on-stone.xhtml"/>
-		<itemref idref="poesy.xhtml"/>
 		<itemref idref="uncollected-verse.xhtml"/>
 		<itemref idref="the-mummery.xhtml"/>
+		<itemref idref="the-fiends-delight.xhtml"/>
+		<itemref idref="poesy.xhtml"/>
 		<itemref idref="musings-philosophical-and-theological.xhtml"/>
 		<itemref idref="laughorisms.xhtml"/>
 		<itemref idref="epigrams.xhtml"/>

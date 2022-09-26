@@ -16,18 +16,6 @@
 			<reason>1 instance. Sentence continues in next 'section'.</reason>
 		</ignore>
 	</file>
-	<file path="preface-1.xhtml">
-		<ignore>
-			<code>s-023</code>
-			<reason>1 instance. The name of a work is used in the title of this preface.</reason>
-		</ignore>
-	</file>
-	<file path="preface-2.xhtml">
-		<ignore>
-			<code>s-023</code>
-			<reason>1 instance. The name of a work is used in the title of this preface.</reason>
-		</ignore>
-	</file>
 	<file path="shapes-of-clay.xhtml">
 		<ignore>
 			<code>t-008</code>

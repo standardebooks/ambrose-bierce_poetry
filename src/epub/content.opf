@@ -108,6 +108,11 @@
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<dc:contributor id="contributor">David E. Schultz</dc:contributor>
+		<meta property="file-as" refines="#contributor">Schultz, David E.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/names/n90712204</meta>
+		<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
+		<meta property="se:role" refines="#contributor" scheme="marc:relators">crr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>

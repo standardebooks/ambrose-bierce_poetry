@@ -8,9 +8,9 @@
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
-		<meta property="se:role" refines="#publisher" scheme="marc:relators">bkd</meta>
-		<meta property="se:role" refines="#publisher" scheme="marc:relators">mdc</meta>
-		<meta property="se:role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -61,8 +61,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ambrose_Bierce</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79100683</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
-		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">John Linnell</dc:contributor>
 		<meta property="file-as" refines="#artist">Linnell, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Linnell_(painter)</meta>
@@ -73,37 +73,37 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Kat Jeter</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Jeter, Kat</meta>
-		<meta property="se:role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">John Hagerson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Hagerson, John</meta>
-		<meta property="se:role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-4">http://id.loc.gov/authorities/names/no2044047869</meta>
-		<meta property="se:role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Charles Aldarondo</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Aldarondo, Charles</meta>
-		<meta property="se:role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-6">Leah Moser</dc:contributor>
 		<meta property="file-as" refines="#transcriber-6">Moser, Leah</meta>
-		<meta property="se:role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-7">Paul Hollander</dc:contributor>
 		<meta property="file-as" refines="#transcriber-7">Hollander, Paul</meta>
-		<meta property="se:role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-8">Govert Schipper</dc:contributor>
 		<meta property="file-as" refines="#transcriber-8">Schipper, Govert</meta>
-		<meta property="se:role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-9">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-9">Anonymous</meta>
-		<meta property="se:role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Anonymous</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
@@ -112,7 +112,7 @@
 		<meta property="file-as" refines="#contributor">Schultz, David E.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/names/n90712204</meta>
 		<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
-		<meta property="se:role" refines="#contributor" scheme="marc:relators">crr</meta>
+		<meta property="role" refines="#contributor" scheme="marc:relators">crr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>

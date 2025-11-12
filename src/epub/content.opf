@@ -61,9 +61,9 @@
 		<meta property="se:name.person.full-name" refines="#author">Ambrose Gwinnett Bierce</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ambrose_Bierce</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79100683</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">John Linnell</dc:contributor>
 		<meta property="file-as" refines="#artist">Linnell, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Linnell_(painter)</meta>
@@ -112,9 +112,9 @@
 		<dc:contributor id="contributor">David E. Schultz</dc:contributor>
 		<meta property="file-as" refines="#contributor">Schultz, David E.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/names/n90712204</meta>
-		<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
 		<meta property="role" refines="#contributor" scheme="marc:relators">crr</meta>
-	</metadata>
+	<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
+		</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>

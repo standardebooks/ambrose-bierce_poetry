@@ -53,7 +53,7 @@
 		<dc:source>https://archive.org/details/literarycalifor05mighgoog</dc:source>
 		<dc:source>https://archive.org/details/cali07webb</dc:source>
 		<meta property="se:production-notes">No-Break Hyphens (8.7.7.8.3) and a two-em dash (8.7.7.8.4.1) are used per manual, for obscured letters. Typogrify breaks these. Multiple poems were directly transcribed from scans (see commit history). Also, the uncollected poems “Rosalie,” “To Thee, My Darling,” and “Serenade” are sourced from scans (originally microfilm) of the newspapers that they appeared in, but are not available directly online from a major archive. “Basilica” and “A Mystery” appear in The Californian, available at the Internet Archive, and “Science” in Literary California, Poetry, Prose and Portraits.</meta>
-		<meta property="se:word-count">122649</meta>
+		<meta property="se:word-count">120170</meta>
 		<meta property="se:reading-ease.flesch">69.21</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ambrose-bierce_poetry</meta>
 		<dc:creator id="author">Ambrose Bierce</dc:creator>

@@ -113,8 +113,7 @@
 		<meta property="file-as" refines="#contributor">Schultz, David E.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/names/n90712204</meta>
 		<meta property="role" refines="#contributor" scheme="marc:relators">crr</meta>
-	<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
-		</metadata>
+	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>

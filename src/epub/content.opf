@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/ambrose-bierce/poetry</dc:identifier>
 		<dc:date>2022-09-26T19:15:51Z</dc:date>
 		<meta property="dcterms:modified">2022-09-26T19:15:51Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -32,8 +33,8 @@
 		<dc:subject id="subject-1">American poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85004382</meta>
-		<meta property="se:subject">Poetry</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Poetry</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">A collection of Ambrose Bierce’s poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;While better known for his short stories and his satirical &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/ambrose-bierce/the-devils-dictionary"&gt;The Devil’s Dictionary&lt;/a&gt;&lt;/i&gt;, American journalist &lt;a href="https://standardebooks.org/ebooks/ambrose-bierce"&gt;Ambrose Bierce&lt;/a&gt; was also a prolific writer of serious, comic, sentimental, and satirical poetry, verse, and epigrams.&lt;/p&gt;
@@ -52,23 +53,24 @@
 		<dc:source>https://archive.org/details/blackbeetlesinam00bier</dc:source>
 		<dc:source>https://archive.org/details/literarycalifor05mighgoog</dc:source>
 		<dc:source>https://archive.org/details/cali07webb</dc:source>
-		<meta property="se:production-notes">No-Break Hyphens (8.7.7.8.3) and a two-em dash (8.7.7.8.4.1) are used per manual, for obscured letters. Typogrify breaks these. Multiple poems were directly transcribed from scans (see commit history). Also, the uncollected poems “Rosalie,” “To Thee, My Darling,” and “Serenade” are sourced from scans (originally microfilm) of the newspapers that they appeared in, but are not available directly online from a major archive. “Basilica” and “A Mystery” appear in The Californian, available at the Internet Archive, and “Science” in Literary California, Poetry, Prose and Portraits.</meta>
-		<meta property="se:word-count">120170</meta>
-		<meta property="se:reading-ease.flesch">69.21</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/ambrose-bierce_poetry</meta>
+		<meta property="schema:wordCount">120170</meta>
+		<meta property="schema:educationalLevel">69.21</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/ambrose-bierce_poetry" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Ambrose Bierce</dc:creator>
 		<meta property="file-as" refines="#author">Bierce, Ambrose</meta>
-		<meta property="se:name.person.full-name" refines="#author">Ambrose Gwinnett Bierce</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ambrose_Bierce</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79100683</meta>
+		<meta property="schema:alternateName" refines="#author">Ambrose Gwinnett Bierce</meta>
+		<link href="https://en.wikipedia.org/wiki/Ambrose_Bierce" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79100683.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">John Linnell</dc:contributor>
 		<meta property="file-as" refines="#artist">Linnell, John</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Linnell_(painter)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50050808</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Linnell_(painter)" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50050808.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Rick Niles</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Niles, Rick</meta>
@@ -81,7 +83,7 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-4">http://id.loc.gov/authorities/names/no2044047869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2044047869.html" refines="#transcriber-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Charles Aldarondo</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Aldarondo, Charles</meta>
@@ -108,11 +110,11 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 		<dc:contributor id="contributor">David E. Schultz</dc:contributor>
 		<meta property="file-as" refines="#contributor">Schultz, David E.</meta>
-		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/names/n90712204</meta>
+		<link href="https://id.loc.gov/authorities/names/n90712204.html" refines="#contributor" rel="schema:sameAs"/>
 		<meta property="role" refines="#contributor" scheme="marc:relators">crr</meta>
 	</metadata>
 	<manifest>

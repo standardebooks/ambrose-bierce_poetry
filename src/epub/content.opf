@@ -35,7 +35,7 @@
 		<meta property="term" refines="#subject-1">sh85004382</meta>
 		<meta property="schema:genre">Poetry</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:abstract>A collection of Ambrose Bierce’s poetry.</dc:abstract>
+		<meta property="schema:abstract">A collection of Ambrose Bierce’s poetry.</meta>
 		<dc:description>
 			&lt;p&gt;While better known for his short stories and his satirical &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/ambrose-bierce/the-devils-dictionary"&gt;The Devil’s Dictionary&lt;/a&gt;&lt;/i&gt;, American journalist &lt;a href="https://standardebooks.org/ebooks/ambrose-bierce"&gt;Ambrose Bierce&lt;/a&gt; was also a prolific writer of serious, comic, sentimental, and satirical poetry, verse, and epigrams.&lt;/p&gt;
 			&lt;p&gt;Bierce’s poetry contains similar themes as much of his other work. His bitter cynicism on human nature is exemplified in “Montefiore,” “Incurable,” and “The Man Born Blind.” Echoes of the American Civil War, in which Bierce fought for the Union, appear in works such as “At a ‘National Encampment,’ ” “The Death of Grant,” and “The Hesitating Veteran.” Religion is not spared, and he addresses it in “The Lord’s Prayer on a Coin,” “Religion,” and “Theosophistry.” He even wrote several short satirical dramas in verse, addressing, among other topics, Prohibition (“Metempsychosis”), the railroads (“The Birth of the Rail”), and Chinese expulsion in California (“ ‘Peaceful Expulsion’ ”). His poems such as “A Vision of Doom,” “Avalon,” “The Passing Show,” and “Invocation” (one of his most well-known poems) capture his metaphysical outlook and pessimism. He even pens a fine elegy to his cat in “In Memoriam.”&lt;/p&gt;
